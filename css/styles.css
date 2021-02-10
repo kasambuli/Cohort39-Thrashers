@@ -1,0 +1,64 @@
+ul {
+    line-height: 40px;
+}
+
+body {
+    background-color: ultra violet;
+    text-align: center;
+}
+
+ol {
+    line-height: 40px;
+    color: blue;
+    font-style: italic;
+}
+
+h4 {
+    font-family: 'Times New Roman';
+    font-style: oblique;
+    color: pink;
+    line-height: 36px;
+}
+
+p {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: cornsilk;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: cornsilk;
+    color: coral;
+    font-family: Arial;
+}
+
+ul {
+    color: orange;
+    line-height: 30px;
+}
+
+a {
+    font-family: Arial Black;
+    font-style: italic;
+    color: red;
+}
+
+h3 {
+    font-family: "Garamond";
+    font-size: 22px;
+    font-weight: 150;
+    text-decoration: line-through;
+}
+
+h2 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    font-weight: bold;
+    color: red;
+}
