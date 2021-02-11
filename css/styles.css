@@ -1,5 +1,7 @@
 ul {
     line-height: 40px;
+    color: orange;
+    float: left;
 }
 
 body {
@@ -11,6 +13,8 @@ ol {
     line-height: 40px;
     color: blue;
     font-style: italic;
+    line-height: 30px;
+    float: right;
 }
 
 h4 {
@@ -29,18 +33,24 @@ p {
     font-size: 120%;
 }
 
-h1 {
+
+/* h1 {
     display: block;
     font-size: 2em;
     font-weight: bold;
     background-color: cornsilk;
     color: coral;
     font-family: Arial;
-}
+} */
 
-ul {
-    color: orange;
-    line-height: 30px;
+.first-header {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: cornsilk;
+    color: coral;
+    font-family: Arial;
+    margin: 10%;
 }
 
 a {
@@ -56,6 +66,8 @@ h3 {
     text-decoration: line-through;
 }
 
+
+/* 
 h2 {
     display: block;
     font-size: 2em;
@@ -63,4 +75,54 @@ h2 {
     margin-bottom: 0.83em;
     font-weight: bold;
     color: red;
+} */
+
+#header-one {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    padding: 5%;
+    border: 10px solid red;
+    margin: 5%;
+}
+
+#header-two {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    font-weight: bold;
+    color: cyan;
+}
+
+.headers {
+    text-decoration: overline;
+    text-decoration-style: dotted;
+}
+
+.content {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.happy {
+    text-decoration: underline overline dashed red;
+}
+
+@media screen and (min-width:480px) {
+    body {
+        background-color: black;
+        color: white
+    }
+}
+
+@media screen and (min-width:1400px) {
+    body {
+        background-color: rgb(221, 7, 221);
+        color: black
+    }
+    h1 {
+        background-color: darkgreen;
+    }
 }
