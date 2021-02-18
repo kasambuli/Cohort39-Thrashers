@@ -107,7 +107,7 @@ h2 {
 }
 
 .happy {
-    text-decoration: underline overline dashed red;
+    text-decoration: underline overline dashed blue;
 }
 
 @media screen and (min-width:480px) {
